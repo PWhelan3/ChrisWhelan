@@ -5,13 +5,62 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    width: 25vw;
-    
+
+    padding: 35px;
+    z-index: 1;
+
+    overflow-x: auto;
+    white-space: nowrap; /* Prevents wrapping to the next line */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    height: 100vh;
+
+    overflow-x: scroll;
 }
 
-.work-img {
-    width: 200px;
+.carosel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 75vw;
+    padding: 50px;
+}
+
+.img1 {
+    width: 25%;
+}
+
+.img2 {
+    width: 25%;
+}
+
+.img3 {
+    width: 25%;
+}
+
+.window {
+    flex: 0 0 auto; /* Disable flex-grow and flex-shrink */
+    height: 50vh;
+    width: 50vw;
+    margin-right: 50px; /* Adjust spacing between windows */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(219, 224, 192);
+    cursor: pointer;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.45s ease;
+    color: #fff;
+}
+
+.window:hover {
+    transform: scale(1.05); /* Increase the size on hover */
 }
 
   @media screen and (max-width: 830px) {
