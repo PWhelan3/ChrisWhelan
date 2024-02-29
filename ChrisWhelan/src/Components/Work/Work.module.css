@@ -2,32 +2,33 @@
 
 .container {
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+}
 
-    padding: 35px;
-    z-index: 1;
-
-    overflow-x: auto;
-    white-space: nowrap; /* Prevents wrapping to the next line */
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-
-    height: 100vh;
-
-    overflow-x: scroll;
+.title {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .carosel {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 75vw;
-    padding: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+
+    height: 75vh;
+
+    overflow-x: scroll;
 }
 
 .img1 {
@@ -46,7 +47,8 @@
     flex: 0 0 auto; /* Disable flex-grow and flex-shrink */
     height: 50vh;
     width: 50vw;
-    margin-right: 50px; /* Adjust spacing between windows */
+    margin-right: 50px;
+    margin-left: 25px;
     padding: 10px;
     box-sizing: border-box;
     background-color: rgb(219, 224, 192);
@@ -57,6 +59,7 @@
     background-position: center;
     transition: transform 0.45s ease;
     color: #fff;
+    z-index: 1;
 }
 
 .window:hover {
