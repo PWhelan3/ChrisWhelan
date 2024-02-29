@@ -8,10 +8,8 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <p>Feel free to reach out with any enquiries!</p>
       </div>
-      <div className={styles.topBlur}></div>
-      <div className={styles.bottomBlur}></div>
       <ul className={styles.links}>
         <li className={styles.link}>
           <img className={styles.iconimg} src={getImageUrl("icons/email.jpg")} alt="Email icon" />
@@ -22,6 +20,7 @@ export const Contact = () => {
           <a href="https://www.instagram.com/christopherwhelanart">@christopherwhelanart</a>
         </li>
       </ul>
+      <div className={styles.bottomBlur}></div>
     </footer>
   );
 };

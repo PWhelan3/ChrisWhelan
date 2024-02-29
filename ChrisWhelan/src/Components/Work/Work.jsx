@@ -10,6 +10,12 @@ export const Work = () => {
             <img src={getImageUrl("1.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
             <img src={getImageUrl("2.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
             <img src={getImageUrl("3.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
+            <img src={getImageUrl("1.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
+            <img src={getImageUrl("2.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
+            <img src={getImageUrl("3.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
+            <img src={getImageUrl("1.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
+            <img src={getImageUrl("2.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
+            <img src={getImageUrl("3.jpg")} alt="Painting" className={`${styles.window} ${styles.img1}`}/>
         </div>
     </div>
   )

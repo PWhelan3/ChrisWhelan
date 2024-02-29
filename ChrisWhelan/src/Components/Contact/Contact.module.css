@@ -1,7 +1,9 @@
 @import "../../vars.css";
 
 .container {
+  position: relative;
   height: 100vh;
+  width: 100vw;
   color: var(--color-text);
   background-color: var(--color-secondary);
   display: flex;
@@ -11,22 +13,30 @@
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  overflow-wrap: hidden;
+  z-index: 1;
 }
 
 .iconimg {
   height: 5vh;
+  z-index: 1;
 }
 
 .text h2 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
+  z-index: 3;
 }
 
 .text p {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+  z-index: 1;
 }
 
 .links {
@@ -35,12 +45,14 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  z-index: 1;
 }
 
 .link {
   display: flex;
   align-items: center;
   gap: 25px;
+  z-index: 1;
 }
 
 .link a {
@@ -49,6 +61,20 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  z-index: 1;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(203, 120, 87, 0.7);
+  filter: blur(200px);
+  z-index: 0;
 }
 
 @media screen and (max-width: 830px) {

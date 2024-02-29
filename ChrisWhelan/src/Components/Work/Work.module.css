@@ -33,6 +33,10 @@
     overflow-x: scroll;
 }
 
+.carosel::-webkit-scrollbar {
+    display: none;
+}
+
 .img1 {
     width: 25%;
 }
@@ -49,8 +53,8 @@
     flex: 0 0 auto; /* Disable flex-grow and flex-shrink */
     height: 50vh;
     width: 50vw;
-    margin-right: 50px;
-    margin-left: 25px;
+    margin-right: 30px;
+    margin-left: 55px;
     padding: 10px;
     box-sizing: border-box;
     background-color: rgb(219, 224, 192);
