@@ -6,16 +6,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin: 5%;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .heroImg {
+    
     width: 95%;
     z-index: 1;
-    border-radius: 300px;
+    border-radius: 10px;
 }
 
 
@@ -24,7 +23,7 @@
     .container {
       flex-direction: column-reverse;
     }
-  
+
     .content {
       align-items: center;
     }
