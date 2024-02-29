@@ -1,10 +1,12 @@
 @import "../../vars.css";
 
 .container {
+    height: 100vh;
     position: relative;
     display: block;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .title {

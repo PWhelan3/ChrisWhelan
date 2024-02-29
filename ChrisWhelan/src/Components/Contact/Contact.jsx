@@ -10,14 +10,16 @@ export const Contact = () => {
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
       </div>
+      <div className={styles.topBlur}></div>
+      <div className={styles.bottomBlur}></div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+          <img className={styles.iconimg} src={getImageUrl("icons/email.jpg")} alt="Email icon" />
+          <a href="mailto:myemail@email.com">chriswhelanart@email.com</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <img className={styles.iconimg} src={getImageUrl("icons/insta.jpg")} alt="Instagram icon" />
+          <a href="https://www.instagram.com/christopherwhelanart">@christopherwhelanart</a>
         </li>
       </ul>
     </footer>
