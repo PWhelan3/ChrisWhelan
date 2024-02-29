@@ -1,12 +1,17 @@
 @import "../../vars.css";
 
 .container {
-    height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    height: 50vh;
+    width: 25vw;
+    
+}
 
+.work-img {
+    width: 200px;
 }
 
   @media screen and (max-width: 830px) {
