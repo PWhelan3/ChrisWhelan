@@ -7,8 +7,8 @@ export const Work = () => {
     <div id="work" className={styles.container}>
         <p className={styles.title}>Work</p>
         <div className={styles.carousel}>
-          <div className={styles.window}>
-            <img src={getImageUrl("1.jpg")} alt="Painting" className={`${styles.img1} ${styles.carouselimage}`}/>
+          <div>
+            <img src={getImageUrl("1.jpg")} alt="Painting" className={`${styles.window} ${styles.img1} ${styles.carouselimage}`}/>
             <div className={styles.content}></div>
           </div>
           <img src={getImageUrl("2.jpg")} alt="Painting" className={`${styles.window} ${styles.img1} ${styles.carouselimage}`}/>
